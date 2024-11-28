@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "main";
+}
+
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "main";
+    src: url('/assets/fonts/JosefinSans-Regular.ttf');
+}
+
+.arrivals{
+    width: 100%;
+    padding: 200px 0;
+}
+
+.arrivals h4{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.arrivals .cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.arrivals .cards .card{
+    overflow: hidden;
+}
+
+.arrivals .cards .card p{
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    letter-spacing: normal;
+    margin: 30px 0 20px;
+}
+
+.arrivals .cards .card:hover .image{
+    background-size: 350px;
+}
+
+.arrivals .cards .card span{
+    color: rgb(255, 32, 32);
+}
+
+.arrivals .cards .card .image{
+    width: 330px;
+    height: 450px;
+}
+
+.arrivals .cards .card1 .image{
+    background-image: url('/assets/images/card_images/new_product1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.arrivals .cards .card2 .image{
+    background-image: url('/assets/images/card_images/new_product2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.arrivals .cards .card3 .image{
+    background-image: url('/assets/images/card_images/new_product3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
